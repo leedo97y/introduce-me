@@ -98,6 +98,16 @@ h3 {
   margin: 15px auto;
 }
 
+.link a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: orangered;
+}
+
 /* footer */
 footer {
   display: block;
@@ -160,4 +170,17 @@ p {
   letter-spacing: 1px;
   padding: 25px;
   border-radius: 20px;
+}
+
+/* weather */
+#weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
